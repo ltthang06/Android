@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeWidth="1dp" app:strokeColor="@color/outline_soft" app:cardBackgroundColor="@color/surface">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:padding="@dimen/space_medium">
+        <ImageView android:importantForAccessibility="no" android:contentDescription="@null" android:id="@+id/orderItemImage" android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_product_photo" android:padding="8dp" android:scaleType="fitCenter" />
+        <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:orientation="vertical">
+            <TextView android:id="@+id/orderItemText" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:lineSpacingExtra="5dp" android:textColor="@color/text_primary" />
+            <TextView android:id="@+id/orderItemTotal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textSize="15sp" android:textStyle="bold" android:textColor="@color/brand" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

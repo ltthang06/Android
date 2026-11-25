@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginBottom="16dp">
+ <com.google.android.material.textfield.TextInputLayout style="@style/Widget.Material3.TextInputLayout.OutlinedBox" app:boxCornerRadiusTopStart="14dp" app:boxCornerRadiusTopEnd="14dp" app:boxCornerRadiusBottomStart="14dp" app:boxCornerRadiusBottomEnd="14dp" app:boxBackgroundColor="#FDFCFF" app:boxStrokeColor="@color/login_input_outline" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/history_search_hint" app:endIconMode="clear_text" app:startIconDrawable="@android:drawable/ic_menu_search">
+ <com.google.android.material.textfield.TextInputEditText android:id="@+id/historySearch" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" android:textSize="16sp"/>
+ </com.google.android.material.textfield.TextInputLayout>
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:gravity="center_vertical">
+ <com.google.android.material.button.MaterialButton style="@style/Widget.Material3.Button.OutlinedButton" android:id="@+id/historyFrom" android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:text="@string/history_from" android:textSize="14sp" app:cornerRadius="14dp" app:strokeColor="@color/outline_soft"/>
+ <com.google.android.material.button.MaterialButton style="@style/Widget.Material3.Button.OutlinedButton" android:id="@+id/historyTo" android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:layout_marginStart="8dp" android:text="@string/history_to" android:textSize="14sp" app:cornerRadius="14dp" app:strokeColor="@color/outline_soft"/>
+ </LinearLayout>
+ <com.google.android.material.button.MaterialButton style="@style/Widget.Material3.Button.TextButton" android:id="@+id/historyClear" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/filter_clear"/>
+ <TextView android:id="@+id/historyResultCount" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/text_secondary" android:textSize="14sp" android:accessibilityLiveRegion="polite"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="auth_create">Tạo tài khoản</string>
+    <string name="auth_register_hint">Bắt đầu trải nghiệm mua sắm của bạn.</string>
+    <string name="auth_username_error">Tên đăng nhập gồm 3–32 ký tự chữ, số, dấu chấm hoặc gạch ngang, không có khoảng trắng.</string>
+    <string name="auth_missing">Vui lòng nhập đủ thông tin.</string>
+    <string name="auth_password_length">Mật khẩu cần từ 6 đến 128 ký tự.</string>
+    <string name="auth_password_mismatch">Mật khẩu nhập lại chưa khớp.</string>
+    <string name="auth_username_taken">Tên đăng nhập đã được sử dụng.</string>
+    <string name="auth_existing_email">Email đã có hồ sơ. Hãy đăng nhập để tiếp tục hoặc chọn Quên mật khẩu.</string>
+    <string name="auth_account_created">Đã tạo tài khoản</string>
+    <string name="auth_profile_retry">Chưa lưu đủ hồ sơ. Bạn có thể tiếp tục xác minh email rồi bổ sung thông tin trong hồ sơ.</string>
+    <string name="auth_continue">Tiếp tục</string>
+    <string name="auth_verify_title">Xác minh email</string>
+    <string name="auth_forgot">Quên mật khẩu?</string>
+    <string name="auth_verify_hint">Mở thư từ ứng dụng và nhấn đường dẫn xác minh. Sau đó quay lại đây để tiếp tục.</string>
+    <string name="auth_reset_hint">Nhập email đã đăng ký. Bạn sẽ nhận được đường dẫn để đặt mật khẩu mới.</string>
+    <string name="auth_not_verified">Email chưa được xác minh. Hãy mở đường dẫn trong thư, sau đó thử lại.</string>
+    <string name="auth_email_error">Email chưa đúng định dạng.</string>
+    <string name="auth_verification_sent">Đã gửi email xác minh. Kiểm tra Hộp thư đến hoặc Thư rác.</string>
+    <string name="auth_reset_sent">Nếu email đã được đăng ký, thư đặt lại mật khẩu sẽ được gửi đến bạn. Hãy kiểm tra cả Thư rác.</string>
+    <string name="auth_send_verification">Gửi email xác minh</string>
+    <string name="auth_send_reset">Gửi đường dẫn đặt lại mật khẩu</string>
+    <string name="auth_check_verified">Tôi đã xác minh · Tiếp tục</string>
+    <string name="auth_back_login">Quay lại đăng nhập</string>
+    <string name="auth_email_note">Chỉ mở đường dẫn trong email do bạn yêu cầu. Không chia sẻ đường dẫn với người khác.</string>
+    <string name="auth_login_hint">Email hoặc tên đăng nhập</string>
+    <string name="auth_password_hint">Mật khẩu · ít nhất 6 ký tự</string>
+    <string name="auth_signin_prompt">Đã có tài khoản?</string>
+    <string name="auth_email_fixed">Email đăng nhập</string>
+    <string name="auth_email_profile_hint">Email này dùng để đăng nhập và khôi phục mật khẩu.</string>
+    <plurals name="auth_resend_seconds"><item quantity="other">Gửi lại sau %1$d giây</item></plurals>
+    <string name="auth_signup_prompt">Chưa có tài khoản?</string>
+    <string name="auth_signup_action">Đăng ký</string>
+    <string name="auth_welcome_subtitle">Đăng nhập để khám phá những sản phẩm bạn yêu thích.</string>
+    <string name="profile_verified">✓ Đã xác minh</string>
+    <string name="profile_saved">Cập nhật hồ sơ thành công!</string>
+    <string name="auth_session_expired">Phiên đăng nhập đã hết hiệu lực. Vui lòng đăng nhập lại.</string>
+    <string name="auth_restore_failed">Chưa khôi phục được phiên đăng nhập</string>
+    <string name="auth_retry">Thử lại</string>
+    <string name="auth_other_account">Dùng tài khoản khác</string>
+    <string name="password_new_label">Mật khẩu mới</string>
+    <string name="password_minimum_hint">Ít nhất 6 ký tự</string>
+    <string name="password_current_required">Vui lòng nhập mật khẩu hiện tại.</string>
+    <string name="password_current_wrong">Mật khẩu hiện tại chưa đúng.</string>
+    <string name="password_changed">Đổi mật khẩu thành công. Vui lòng đăng nhập lại.</string>
+</resources>

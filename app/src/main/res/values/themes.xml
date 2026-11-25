@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.LoginApp" parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">#6750A4</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#211C29</item>
+        <item name="android:windowBackground">@color/page_background</item>
+    </style>
+
+    <style name="Theme.LoginApp" parent="Base.Theme.LoginApp" />
+    <style name="ProductCardSurface">
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+    <style name="CartSelectionCheckbox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonCompat">@drawable/cart_checkbox</item>
+        <item name="buttonIcon">@null</item>
+        <item name="buttonTint">@null</item>
+        <item name="android:buttonTint">@null</item>
+        <item name="useMaterialThemeColors">false</item>
+    </style>
+</resources>

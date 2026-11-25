@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToPadding="false" android:scrollbars="none" android:background="@drawable/bg_page" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <com.google.android.material.button.MaterialButton style="@style/Widget.Material3.Button.TextButton" android:id="@+id/btnAboutBack" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginBottom="12dp" android:text="@string/label_quay_lai" />
+        <FrameLayout android:id="@+id/aboutBanner" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_about_banner">
+            <ImageView android:layout_width="180dp" android:layout_height="180dp" android:layout_gravity="top|end" android:layout_marginTop="-46dp" android:layout_marginEnd="-42dp" android:src="@drawable/login_orbits" android:contentDescription="@null" android:importantForAccessibility="no" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="22dp">
+                <ImageView android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/images" android:background="@drawable/bg_surface" android:padding="9dp" android:contentDescription="@string/label_logo_ung_dung" android:elevation="2dp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/label_cong_nghe_trong_tam_tay" android:textSize="26sp" android:textColor="@color/surface" android:layout_marginTop="16dp" android:lineSpacingExtra="2dp" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/label_thiet_bi_phu_hop_trai_nghiem_tron_ven" android:textSize="14sp" android:textColor="#E7DDF7" android:layout_marginTop="10dp" android:lineSpacingExtra="2dp" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="16dp" android:padding="20dp" android:background="@drawable/bg_surface">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                <ImageView android:layout_width="36dp" android:layout_height="36dp" android:padding="8dp" android:src="@drawable/nav_about" android:background="@drawable/bg_price_chip" app:tint="@color/brand" android:importantForAccessibility="no" android:contentDescription="@null" />
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/label_01_ve_ung_dung" android:textSize="18sp" android:textColor="#49316F" android:layout_marginTop="0dp" android:lineSpacingExtra="4dp" android:textStyle="bold" android:layout_weight="1" android:layout_marginStart="12dp" />
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/label_khong_gian_kham_pha_thiet_bi_cong_nghe_danh_cho_hoc_tap_cong_viec" android:textSize="15sp" android:textColor="@color/text_secondary" android:layout_marginTop="10dp" android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="16dp" android:padding="20dp" android:background="@drawable/bg_surface">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                <ImageView android:layout_width="36dp" android:layout_height="36dp" android:padding="8dp" android:src="@drawable/nav_products" android:background="@drawable/bg_price_chip" app:tint="@color/brand" android:importantForAccessibility="no" android:contentDescription="@null" />
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/label_02_kham_pha_san_pham" android:textSize="18sp" android:textColor="#49316F" android:layout_marginTop="0dp" android:lineSpacingExtra="4dp" android:textStyle="bold" android:layout_weight="1" android:layout_marginStart="12dp" />
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/label_tu_laptop_dien_thoai_den_tai_nghe_va_phu_kien_xem_hinh_anh_gia_ba" android:textSize="15sp" android:textColor="@color/text_secondary" android:layout_marginTop="10dp" android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="16dp" android:padding="20dp" android:background="@drawable/bg_surface">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                <ImageView android:layout_width="36dp" android:layout_height="36dp" android:padding="8dp" android:src="@drawable/nav_cart" android:background="@drawable/bg_price_chip" app:tint="@color/brand" android:importantForAccessibility="no" android:contentDescription="@null" />
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/label_03_mua_sam_thuan_tien" android:textSize="18sp" android:textColor="#49316F" android:layout_marginTop="0dp" android:lineSpacingExtra="4dp" android:textStyle="bold" android:layout_weight="1" android:layout_marginStart="12dp" />
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/label_them_san_pham_yeu_thich_vao_gio_dieu_chinh_so_luong_va_theo_doi_t" android:textSize="15sp" android:textColor="@color/text_secondary" android:layout_marginTop="10dp" android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

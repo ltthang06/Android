@@ -1,0 +1,21 @@
+[versions]
+agp = "9.5.1"
+junit = "4.13.2"
+appcompat = "1.8.0"
+material = "1.14.0"
+activity = "1.13.0"
+googleServices = "4.6.0"
+firebaseBom = "35.2.0"
+
+[libraries]
+recyclerview = { module = "androidx.recyclerview:recyclerview", version = "1.4.0" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+firebaseBom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebaseFirestore = { module = "com.google.firebase:firebase-firestore" }
+firebaseAuth = { module = "com.google.firebase:firebase-auth" }
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleServices" }

@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="label_bieu_tuong_ung_dung" formatted="false">Biểu tượng ứng dụng</string>
+    <string name="label_chao_mung_tro_lai" formatted="false">Chào mừng trở lại</string>
+    <string name="label_ten_dang_nhap" formatted="false">Tên đăng nhập</string>
+    <string name="label_mat_khau" formatted="false">Mật khẩu</string>
+    <string name="label_dang_nhap" formatted="false">Đăng nhập</string>
+    <string name="label_quay_lai" formatted="false">‹  Quay lại</string>
+    <string name="label_xac_nhan_dat_mua" formatted="false">Xác nhận đặt mua</string>
+    <string name="label_xin_chao" formatted="false">Xin chào</string>
+    <string name="label_kham_pha_cong_nghe" formatted="false">Khám phá công nghệ</string>
+    <string name="label_logo_ung_dung" formatted="false">Logo ứng dụng</string>
+    <string name="label_cong_nghe_trong_tam_tay" formatted="false">Công nghệ\ntrong tầm tay</string>
+    <string name="label_thiet_bi_phu_hop_trai_nghiem_tron_ven" formatted="false">Thiết bị phù hợp. Trải nghiệm trọn vẹn.</string>
+    <string name="label_01_ve_ung_dung" formatted="false">Về ứng dụng</string>
+    <string name="label_khong_gian_kham_pha_thiet_bi_cong_nghe_danh_cho_hoc_tap_cong_viec" formatted="false">Tìm thiết bị phù hợp cho học tập, làm việc và giải trí.</string>
+    <string name="label_02_kham_pha_san_pham" formatted="false">Khám phá sản phẩm</string>
+    <string name="label_tu_laptop_dien_thoai_den_tai_nghe_va_phu_kien_xem_hinh_anh_gia_ba" formatted="false">Xem hình ảnh, giá bán và thông số để lựa chọn dễ dàng hơn.</string>
+    <string name="label_03_mua_sam_thuan_tien" formatted="false">Mua sắm thuận tiện</string>
+    <string name="label_them_san_pham_yeu_thich_vao_gio_dieu_chinh_so_luong_va_theo_doi_t" formatted="false">Quản lý giỏ hàng, đặt mua và xem lại đơn ngay trong ứng dụng.</string>
+    <string name="label_xoa_tat_ca" formatted="false">Xóa tất cả</string>
+    <string name="label_tong_cong_0d" formatted="false">Tổng cộng: 0đ</string>
+    <string name="label_tiep_tuc_dat_hang" formatted="false">Tiếp tục đặt hàng</string>
+    <string name="label_activity_product_text" formatted="false">≡</string>
+    <string name="label_ho_so_ca_nhan" formatted="false">Hồ sơ cá nhân</string>
+    <string name="label_tim_laptop_dien_thoai_phu_kien" formatted="false">Tìm laptop, điện thoại, phụ kiện…</string>
+    <string name="label_khong_tim_thay_san_pham_phu_hop" formatted="false">Không tìm thấy sản phẩm phù hợp.</string>
+    <string name="label_tai_khoan" formatted="false">Tài khoản</string>
+    <string name="label_tai_khoan_cua_ban" formatted="false">Tài khoản của bạn</string>
+    <string name="label_doi_mat_khau" formatted="false">Đổi mật khẩu</string>
+    <string name="label_dang_xuat" formatted="false">Đăng xuất</string>
+    <string name="label_anh_san_pham" formatted="false">Ảnh sản phẩm</string>
+    <string name="label_thong_tin_san_pham" formatted="false">Thông tin sản phẩm</string>
+    <string name="label_san_pham_khac" formatted="false">Có thể bạn quan tâm</string>
+    <string name="label_them_vao_gio" formatted="false">Thêm vào giỏ</string>
+    <string name="label_mua_ngay" formatted="false">Mua ngay</string>
+    <string name="label_quan_ly_tai_khoan_va_thong_tin_lien_he" formatted="false">Quản lý tài khoản và thông tin liên hệ.</string>
+    <string name="label_email" formatted="false">Email</string>
+    <string name="label_so_dien_thoai" formatted="false">Số điện thoại</string>
+    <string name="label_luu_thay_doi" formatted="false">Lưu thay đổi</string>
+    <string name="label_nhap_lai_mat_khau" formatted="false">Nhập lại mật khẩu</string>
+    <string name="label_nhap_mat_khau_hien_tai_va_mat_khau_moi_cua_ban" formatted="false">Nhập mật khẩu hiện tại và mật khẩu mới của bạn.</string>
+    <string name="label_mat_khau_hien_tai" formatted="false">Mật khẩu hiện tại</string>
+    <string name="label_nhap_lai_mat_khau_moi" formatted="false">Nhập lại mật khẩu mới</string>
+    <string name="label_huy" formatted="false">Hủy</string>
+    <string name="label_ban_cam_thay_san_pham_the_nao" formatted="false">Bạn cảm thấy sản phẩm thế nào?</string>
+    <string name="label_chon_tu_1_den_5_sao" formatted="false">Chọn từ 1 đến 5 sao</string>
+    <string name="label_chia_se_trai_nghiem_cua_ban" formatted="false">Chia sẻ trải nghiệm của bạn</string>
+    <string name="label_luu_danh_gia" formatted="false">Lưu đánh giá</string>
+    <string name="label_item_account_action_text" formatted="false">›</string>
+    <string name="label_item_cart_text" formatted="false">−</string>
+    <string name="label_giam_so_luong" formatted="false">Giảm số lượng</string>
+    <string name="label_item_cart_text_2" formatted="false">+</string>
+    <string name="label_tang_so_luong" formatted="false">Tăng số lượng</string>
+    <string name="label_xoa" formatted="false">Xóa</string>
+    <string name="label_san_pham" formatted="false">Sản phẩm</string>
+    <string name="label_gio_hang" formatted="false">Giỏ hàng</string>
+    <string name="label_thong_bao" formatted="false">Thông báo</string>
+    <string name="label_gioi_thieu" formatted="false">Giới thiệu</string>
+    <string name="label_dang_xu_ly" formatted="false">Đang xử lý…</string>
+    <string name="label_dang_tai_san_pham" formatted="false">Đang tải sản phẩm…</string>
+    <string name="label_khong_tai_duoc_don_hang" formatted="false">Không tải được đơn hàng.</string>
+    <string name="label_gio_hang_2" formatted="false">GIỎ HÀNG</string>
+    <string name="label_thong_bao_2" formatted="false">Thông báo</string>
+    <string name="label_tiep_tuc_mua_sam" formatted="false">Tiếp tục mua sắm</string>
+    <string name="label_dang_tai_thong_bao" formatted="false">Đang tải thông báo…</string>
+    <string name="label_ban_chua_co_thong_bao_dat_hang" formatted="false">Bạn chưa có thông báo đặt hàng.</string>
+    <string name="label_danh_gia_khach_hang" formatted="false">Đánh giá khách hàng</string>
+    <string name="review_write">Viết đánh giá</string>
+    <string name="review_edit">Sửa đánh giá</string>
+    <string name="review_count">%1$d đánh giá</string>
+    <string name="welcome_user">Xin chào, %1$s</string>
+    <string name="unit_price">Đơn giá: %1$s</string>
+    <string name="total_price">Tổng cộng: %1$s</string>
+    <string name="cart_title">Giỏ hàng (%1$d)</string>
+    <string name="order_product_details">%1$s\nSố lượng: %2$d\nĐơn giá: %3$s</string>
+    <string name="notification_error">Không tải được thông báo: %1$s</string>
+    <string name="view_profile">Xem hồ sơ ›</string>
+    <string name="purchase_history">Lịch sử đặt mua</string>
+    <string name="personal_information">Thông tin cá nhân</string>
+<string name="review_score">%1$d/5 ★</string>
+<string name="notice_read">Đã xem</string><string name="empty_cart_title">Giỏ hàng chờ bạn khám phá</string><string name="empty_cart_body">Tìm thiết bị phù hợp và thêm vào giỏ. Những lựa chọn yêu thích sẽ xuất hiện tại đây.</string><string name="drawer_manage">QUẢN LÝ TÀI KHOẢN</string>
+<string name="store_headline"><font color="#FFFFFF">Dấu ấn riêng.</font>\n<font color="#DDC9FF">Chuẩn công nghệ.</font></string>
+<string name="store_subtitle">Thiết bị bạn chọn, phong cách bạn tạo.</string>
+<string name="technical_title">Thông số kỹ thuật</string>
+<string name="description_title">Mô tả sản phẩm</string>
+<string name="order_success_title">Đặt mua thành công</string><string name="explore_suggestions">Có thể bạn sẽ thích</string>
+<string name="notice_metadata">%1$s\nMã đơn: %2$s</string>
+<string name="products_retry">Không tải được sản phẩm. Nhấn để thử lại.</string><string name="cod_method">Thanh toán khi nhận hàng (COD)</string><string name="label_khong_tai_duoc_gio_hang">Không tải được giỏ hàng. Vui lòng quay lại và thử lại.</string><string name="review_date_ordered">%1$s · Đã đặt mua</string><string name="order_total_label">Tổng cộng</string>
+<string name="order_copy_id">Sao chép mã đơn</string>
+<string name="order_id_label">Mã đơn hàng</string>
+<string name="order_id_copied">Đã sao chép mã đơn.</string>
+<plurals name="order_item_summary"><item quantity="other">%1$d sản phẩm · Số lượng: %2$d</item></plurals>
+<string name="order_line_total">Thành tiền: %1$s</string>
+<string name="logout_title">Đăng xuất?</string>
+<string name="logout_message">Bạn có thể đăng nhập lại bất cứ lúc nào.</string>
+<string name="logout_stay">Ở lại</string>
+<string name="product_count_loading">Đang tải…</string>
+<plurals name="product_result_count"><item quantity="other">%d sản phẩm</item></plurals>
+    <string name="notice_unread">● Chưa đọc</string>
+    <string name="notice_open_order">Xem đơn hàng ›</string>
+    <string name="checkout_confirm_message">Đặt đơn hàng %1$s? Bạn sẽ thanh toán khi nhận hàng.</string>
+    <string name="checkout_total">Tổng thanh toán</string>
+    <string name="shipping_title">Thông tin giao hàng</string>
+    <string name="shipping_name">Tên người nhận</string>
+    <string name="shipping_phone">Số điện thoại nhận hàng</string>
+    <string name="shipping_address">Địa chỉ giao hàng</string>
+    <string name="review_load_failed">Chưa tải được đánh giá. Vui lòng mở lại sản phẩm.</string>
+    <string name="favorite_action">Yêu thích</string>
+    <string name="address_book_title">Sổ địa chỉ</string>
+    <string name="address_loading">Đang tải địa chỉ…</string>
+    <string name="address_default_option">Đặt làm địa chỉ mặc định</string>
+    <string name="address_load_error">Không tải được địa chỉ. Hãy mở lại trang.</string>
+    <string name="profile_load_error">Không tải được hồ sơ.</string>
+    <string name="favorites_title">Sản phẩm yêu thích</string>
+    <string name="shopping_loading">Đang tải…</string>
+    <string name="favorite_remove">Bỏ yêu thích</string>
+    <string name="favorite_load_error">Không tải được danh sách yêu thích.</string>
+    <string name="shopping_products_error">Không tải được sản phẩm. Hãy mở lại trang.</string>
+    <string name="address_choose">Chọn địa chỉ đã lưu</string>
+    <string name="rebuy_empty">Đơn hàng không có sản phẩm để mua lại.</string>
+    <string name="rebuy_price_error">Không tải được giá hiện tại. Vui lòng mở lại đơn.</string>
+    <string name="rebuy_load_error">Không tải được đơn mua lại.</string>
+    <string name="favorite_state_error">Không tải được yêu thích</string>
+    <string name="checkout_selected_count">Đặt hàng (%1$d sản phẩm)</string>
+    <string name="favorite_unavailable">Sản phẩm này không còn bán. Bạn có thể bỏ khỏi danh sách yêu thích.</string>
+    <string name="cart_select_all">Chọn tất cả</string>
+    <string name="address_empty_title">Chưa có địa chỉ đã lưu</string>
+    <string name="address_empty_hint">Thêm địa chỉ để chọn nhanh cho những lần mua sau.</string>
+    <string name="address_manual">Nhập trực tiếp</string>
+    <string name="address_add">Thêm địa chỉ</string>
+    <string name="address_create_title">Thêm địa chỉ mới</string>
+    <string name="address_edit_title">Sửa địa chỉ</string>
+    <string name="address_choose_title">Chọn địa chỉ giao hàng</string>
+    <string name="address_default_badge">Mặc định</string>
+    <string name="address_manage">Quản lý địa chỉ</string>
+    <string name="favorite_saved">Đã yêu thích</string>
+    <string name="favorite_remove_named">Bỏ yêu thích %1$s</string>
+    <string name="favorite_unavailable_short">sản phẩm không còn bán</string>
+    <string name="favorites_empty_title">Lưu những món bạn thích</string>
+    <string name="favorites_empty_hint">Nhấn vào trái tim ở trang sản phẩm để lưu và xem lại tại đây.</string>
+    <string name="favorites_explore">Khám phá sản phẩm</string>
+    <string name="order_note_optional">Ghi chú đơn hàng (không bắt buộc)</string>
+    <string name="order_note_hint">Ví dụ: Gọi trước khi giao.</string>
+    <string name="order_note_title">Ghi chú đơn hàng</string>
+    <string name="price_filter_title">Khoảng giá</string>
+    <string name="filter_clear">Xóa lọc</string>
+    <string name="history_search_hint">Tìm mã đơn hàng</string>
+    <string name="history_from">Từ ngày</string>
+    <string name="history_to">Đến ngày</string>
+    <string name="history_no_match">Không có đơn hàng phù hợp.</string>
+    <string name="history_count">%1$d đơn hàng</string>
+    <string-array name="price_preset_labels">
+        <item>Tất cả mức giá</item>
+        <item>Dưới 5 triệu</item>
+        <item>5 – dưới 10 triệu</item>
+        <item>10 – dưới 20 triệu</item>
+        <item>Từ 20 triệu</item>
+    </string-array>
+    <string name="product_filters_title">Bộ lọc</string>
+    <string name="product_filters_active">Bộ lọc (%1$d)</string>
+    <string name="filter_category">Danh mục</string>
+    <string name="filter_brand">Thương hiệu</string>
+    <string name="filter_rating">Đánh giá</string>
+    <string name="filter_sort">Sắp xếp</string>
+    <string name="filter_reset">Đặt lại</string>
+    <string name="filter_results">Xem %1$d sản phẩm</string>
+    <string name="filter_loading_ratings">Đang tải đánh giá…</string>
+    <string name="filter_ratings_failed">Chưa tải được đánh giá. Đóng và mở lại bộ lọc để thử lại.</string>
+    <string name="filter_all_brands">Tất cả thương hiệu</string>
+    <string name="filter_rating_summary">Từ %1$d★</string>
+    <string-array name="filter_categories"><item>Tất cả</item><item>Điện thoại</item><item>Laptop</item><item>Phụ kiện</item></string-array>
+    <string-array name="filter_sort_options"><item>Đề xuất</item><item>Giá tăng dần</item><item>Giá giảm dần</item></string-array>
+    <string-array name="filter_rating_options"><item>Tất cả</item><item>Từ 4 sao</item><item>Từ 3 sao</item><item>Từ 2 sao</item><item>Từ 1 sao</item></string-array>
+    <string name="history_pick_from">Chọn ngày bắt đầu</string>
+    <string name="history_pick_to">Chọn ngày kết thúc</string>
+    <string name="history_pick_date">Chọn ngày</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="calendar_year">Chọn năm</string>
+    <string name="calendar_month">Chọn tháng</string>
+    <string name="calendar_previous">Trước</string>
+    <string name="calendar_next">Tiếp</string>
+    <string-array name="calendar_months"><item>Tháng 1</item><item>Tháng 2</item><item>Tháng 3</item><item>Tháng 4</item><item>Tháng 5</item><item>Tháng 6</item><item>Tháng 7</item><item>Tháng 8</item><item>Tháng 9</item><item>Tháng 10</item><item>Tháng 11</item><item>Tháng 12</item></string-array>
+    <string-array name="calendar_weekdays"><item>T2</item><item>T3</item><item>T4</item><item>T5</item><item>T6</item><item>T7</item><item>CN</item></string-array>
+    <string name="address_delete_action">Xóa địa chỉ</string>
+    <string name="address_delete_title">Xóa địa chỉ này?</string>
+    <string name="address_delete_hint">Thông tin giao hàng trong các đơn đã đặt vẫn được giữ nguyên.</string>
+    <string name="address_keep">Giữ lại</string>
+</resources>

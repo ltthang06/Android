@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_surface"
+    android:orientation="vertical"
+    android:padding="@dimen/space_medium">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+        <com.google.android.material.checkbox.MaterialCheckBox
+            style="@style/CartSelectionCheckbox"
+            android:id="@+id/cartSelected" android:layout_width="48dp" android:layout_height="48dp"
+            android:gravity="center"/>
+        <ImageView
+            android:importantForAccessibility="no"
+            android:contentDescription="@null"
+            android:id="@+id/cartImage"
+            android:layout_width="64dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/cartName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:maxLines="2"/>
+            <TextView
+                android:id="@+id/cartPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"/>
+            <TextView
+                android:id="@+id/cartLineTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brand"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp" android:gravity="end|center_vertical" android:layout_marginTop="8dp">
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:insetTop="0dp" android:insetBottom="0dp" app:cornerRadius="24dp"
+            android:id="@+id/cartMinus"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:minWidth="0dp"
+            android:padding="0dp"
+            android:text="@string/label_item_cart_text"
+            android:contentDescription="@string/label_giam_so_luong"/>
+        <TextView
+            android:id="@+id/cartQuantity"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"/>
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:insetTop="0dp" android:insetBottom="0dp" app:cornerRadius="24dp"
+            android:id="@+id/cartPlus"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:minWidth="0dp"
+            android:padding="0dp"
+            android:text="@string/label_item_cart_text_2"
+            android:contentDescription="@string/label_tang_so_luong"/>
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.Button.TextButton"
+            android:id="@+id/cartRemove"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:minWidth="0dp"
+            android:padding="0dp"
+            android:text="@string/label_xoa"
+            android:textColor="#B3261E"/>
+    </LinearLayout>
+</LinearLayout>

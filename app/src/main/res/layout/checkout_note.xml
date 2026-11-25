@@ -1,0 +1,6 @@
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+ style="@style/Widget.Material3.TextInputLayout.OutlinedBox" app:boxCornerRadiusTopStart="14dp" app:boxCornerRadiusTopEnd="14dp" app:boxCornerRadiusBottomStart="14dp" app:boxCornerRadiusBottomEnd="14dp" app:boxBackgroundColor="#FDFCFF" app:boxStrokeColor="@color/login_input_outline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp"
+ android:hint="@string/order_note_optional" app:helperText="@string/order_note_hint" app:counterEnabled="true" app:counterMaxLength="300">
+ <com.google.android.material.textfield.TextInputEditText android:id="@+id/orderNote" android:layout_width="match_parent" android:layout_height="wrap_content"
+ android:inputType="textMultiLine|textCapSentences" android:minLines="2" android:maxLines="4" android:maxLength="300" android:textSize="16sp" android:gravity="top"/>
+</com.google.android.material.textfield.TextInputLayout>
